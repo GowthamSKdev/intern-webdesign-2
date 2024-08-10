@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IT AGENCY - Contact us</title>
-    <link rel="stylesheet" href="./Contact_page.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./Contact_page.css" />
+  </head>
+  <body>
     <nav id="navbar">
       <a href="../index.html"><img src="" alt="logo" /></a>
       <div class="nav_items">
         <a href="../index.html" class="nav_item">Home</a>
-        <a href="../Service_page/Service_page.html" class="nav_item">Services</a>
+        <a href="../Service_page/Service_page.html" class="nav_item"
+          >Services</a
+        >
         <a href="../About_page/About_page.html" class="nav_item">About us</a>
         <a href="../Contact_page/Contact_page.html" class="nav_item"
           >Contact us</a
         >
+        <button class="nav_menu" onclick="open_side_menu()">Menu</button>
       </div>
     </nav>
     <div class="side_nav_menu">
@@ -31,12 +34,12 @@
           >Contact us</a
         >
       </div>
-      <div class="side_nav_menu_close">Close X</div>
+      <div class="side_nav_menu_close" onclick="close_side_menu()">Close X</div>
     </div>
     <main id="main">
-        <h1>Contact us</h1>
+      <h1>Contact us</h1>
     </main>
     <!-- -------Javascript------- -->
     <script src="../js/script.js"></script>
-</body>
+  </body>
 </html>

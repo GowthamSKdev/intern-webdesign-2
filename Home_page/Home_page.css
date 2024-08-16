@@ -713,4 +713,14 @@ footer {
     font-size: 40px;
     top: 50%;
   }
+
+  .home_step_01 > .home_step_left > .home_step_number,
+  .home_step_02 > .home_step_right > .home_step_number,
+  .home_step_03 > .home_step_left > .home_step_number,
+  .home_step_04 > .home_step_right > .home_step_number{
+    font-size: 200px;
+  }
+  .CW_card{
+    width: 100%;
+  }
 }

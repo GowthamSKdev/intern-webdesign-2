@@ -8,10 +8,14 @@
   </head>
   <body>
     <nav id="navbar">
-      <a href="../index.html"><img src="../Footer/navbar_brand_logo.svg" alt="logo" /></a>
+      <a href="../index.html"
+        ><img src="../Footer/navbar_brand_logo.svg" alt="logo"
+      /></a>
       <div class="nav_items">
         <a href="../index.html" class="nav_item">Home</a>
-        <a href="../Service_page/Service_page.html" class="nav_item">Services</a>
+        <a href="../Service_page/Service_page.html" class="nav_item"
+          >Services</a
+        >
         <a href="../About_page/About_page.html" class="nav_item">About us</a>
         <a href="../Contact_page/Contact_page.html" class="nav_item"
           >Contact us</a
@@ -35,21 +39,87 @@
       <div class="side_nav_menu_close" onclick="close_side_menu()">Close X</div>
     </div>
     <main id="main">
-      <h1>Contact us</h1>
+      <!-- ---- contact page banner start here ---- -->
+      <div class="contact_banner">
+        <div class="contact_heading">CONTACT US</div>
+        <hr />
+        <div class="contact_title">What We Do</div>
+        <div class="contact_para">
+          We are here to help and answer any question you might here. We look
+          forward to hearing from you.
+        </div>
+        <div class="contact_banner_wrapper">
+          <div class="cell_wrapper">
+            <div class="con">
+              <img src="./Assets/contact_banner_cell_img.svg">
+              <div class="con_name">Call Us</div>
+              <div class="con_support">Support: +91 00000 00000</div>
+            </div>
+            <img src="./Assets/contact_banner_img_1.png">
+          </div>
+          <div class="address_wrapper">
+            <img src="./Assets/contact_banner_img_2.png" alt="">
+            <div class="con">
+              <img src="./Assets/contact_banner_pencil_img.svg">
+              <div class="con_name">Write Us</div>
+              <div class="con_mail">enquiry@edmtgroup.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ---- contact page banner end here ---- -->
+       <div class="getintouch">
+         <img src="../Home_page/Assets/vertical_line.svg">
+         <h1 class="contact_news_heading">Get in touch</h1>
+         <img src="../Home_page/Assets/vertical_line.svg">
+         <div class="news_letter">
+          <img src="./Assets/Web_development.png">
+          <form action="post">
+            <div class="name_and_phone">
+              <div class="name">
+                <label for="name">FULL NAME*</label>
+                <input type="text" name="name" id="name" placeholder="Name">
+              </div>
+              <div class="phone">
+                <label for="phone">PHONE NO*</label>
+                <input type="tel" name="phone" id="phone" placeholder="Phone">
+              </div>
+            </div>
+            <div class="email">
+              <label for="email">EMAIL ADDRESS*</label>
+              <input type="email" name="mail" id="mail" placeholder="Email">
+            </div>
+            <div class="message">
+              <label for="message">MESSAGE</label>
+              <textarea name="message" id="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="news_letter_btn">SEND MESSAGE</button>
+          </form>
+         </div>
+         <img src="../Home_page/Assets/vertical_line.svg">
+        </div>
     </main>
     <!-- ------ Footer start here ------ -->
-       <footer class="footer">
-        <img src="../Footer/footer_background.svg" class="footer_bg">
-        <img src="../Footer/footer_red_dot.svg" class="footer_reddot">
-        <p class="footer_heading">Lorem Ipsum</p>
-        <div class="social_links">
-          <a href="#" class="facebook"><img src="../Footer/facebook.svg" alt="facebook"></a>
-          <a href="#" class="twitter"><img src="../Footer/Twitter_x.svg" alt="Twitter"></a>
-          <a href="#" class="google"><img src="../Footer/google.svg" alt="Google"></a>
-          <a href="#" class="linkedin"><img src="../Footer/linkedin.svg" alt="Linkedin"></a>
-        </div>
-       </footer>
-      <!-- ------ Footer end here ------ -->
+    <footer class="footer">
+      <img src="../Footer/footer_background.svg" class="footer_bg" />
+      <img src="../Footer/footer_red_dot.svg" class="footer_reddot" />
+      <p class="footer_heading">Lorem Ipsum</p>
+      <div class="social_links">
+        <a href="#" class="facebook"
+          ><img src="../Footer/facebook.svg" alt="facebook"
+        /></a>
+        <a href="#" class="twitter"
+          ><img src="../Footer/Twitter_x.svg" alt="Twitter"
+        /></a>
+        <a href="#" class="google"
+          ><img src="../Footer/google.svg" alt="Google"
+        /></a>
+        <a href="#" class="linkedin"
+          ><img src="../Footer/linkedin.svg" alt="Linkedin"
+        /></a>
+      </div>
+    </footer>
+    <!-- ------ Footer end here ------ -->
     <!-- -------Javascript------- -->
     <script src="../js/script.js"></script>
   </body>

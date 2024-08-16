@@ -706,4 +706,11 @@ footer {
   }
 }
 @media (max-width: 320px) {
+  .home_step_01 > .home_step_left > .home_step_title,
+  .home_step_02 > .home_step_right > .home_step_title,
+  .home_step_03 > .home_step_left > .home_step_title,
+  .home_step_04 > .home_step_right > .home_step_title {
+    font-size: 40px;
+    top: 50%;
+  }
 }

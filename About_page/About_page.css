@@ -76,10 +76,11 @@
 }
 
 * {
-  padding: 0;
+  /* padding: 0; */
   margin: 0;
   box-sizing: border-box;
   font-family: "poppins", sans-serif;
+  border: 1px solid black;
 }
 
 a {
@@ -87,6 +88,13 @@ a {
   color: inherit;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+}
 /* ---------Navbar start here------- */
 #navbar {
   display: flex;
@@ -154,6 +162,218 @@ a {
 }
 /* ---------Navbar end here------- */
 
+/* -----about and banner start here----- */
+.about {
+  margin-top: 150px;
+  margin-inline: auto;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about_heading {
+  font-size: var(--fs-heading);
+  font-weight: var(--fw-bold);
+}
+hr {
+  width: 100px;
+  height: 9px;
+  background-color: var(--clr-lite-gray);
+  border: none;
+}
+.about_para {
+  font-size: var(--fs-xmd);
+  font-weight: 300;
+  text-align: center;
+}
+
+.about_banner {
+  position: relative;
+}
+.about_banner_fg {
+  background-color: #00000092;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 20px;
+}
+.about_banner > img {
+  position: absolute;
+}
+.about_banner_container {
+  position: relative;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 68px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 575px;
+  width: 1372px;
+}
+.about_banner_headding {
+  text-align: center;
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-semibold);
+  color: var(--clr-white-txt);
+}
+.about_banner_para {
+  text-align: center;
+  font-size: 28px;
+  font-weight: var(--fw-medium);
+  color: var(--clr-white-txt);
+}
+.about_banner_btn {
+  text-align: center;
+  padding: 18px 26px;
+  background-color: var(--clr-btn-orange-bg);
+  align-items: center;
+  font-size: var(--fs-md);
+  font-weight: var(--fw-semibold);
+  border-radius: 20px;
+  box-shadow: 4px 10px 4px 0px #00000040;
+}
+/* -----about banner end here----- */
+
+/* ---- about vision start here ---- */
+.about_vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.about_vision_headding {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  line-height: 3.75;
+  text-align: left;
+}
+.about_vision_para {
+  font-size: var(--fs-md);
+  font-weight: 300;
+  line-height: 1.875;
+  text-align: center;
+  width: 90%;
+}
+
+.about_vision_highlight_wrapper {
+  height: 200px;
+  position: relative;
+  width: 90%;
+  border-radius: 20px;
+  overflow: hidden;
+  /* background-color: #000000; */
+}
+.about_vision_highlight_wrapper > img {
+  width: 100% !important;
+}
+.about_vision_highlight {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 29px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about_vision_hl_headding {
+  font-size: var(--fs-lg);
+  font-weight: 600;
+  /* line-height: 3.75; */
+  color: var(--clr-bg);
+}
+.about_vision_hl_para {
+  font-size: 30px;
+  font-weight: 400;
+  /* line-height: 2.165; */
+}
+/* ---- about vision end here ---- */
+
+/* ---- about chiphereleven start here ----  */
+.about_chipereleven {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.about_choose_chipereleven {
+  background-color: var(--clr-bg);
+  padding: 45px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  width: 100%;
+}
+.choose_CE_headding {
+  font-size: var(--fs-lg);
+  font-weight: 700;
+  color: var(--clr-white-txt);
+}
+.choose_CE_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 40px;
+  row-gap: 40px;
+}
+.choose_CE_card {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.choose_CE_card_headding {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--clr-white-txt);
+}
+.choose_CE_card_para {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  text-align: center;
+  color: var(--clr-white-txt);
+}
+
+.about_life_chipereleven{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.life_CE_headding{
+font-size: 40px;
+font-weight: 700;
+}
+.life_CE_para{
+font-size: 14px;
+font-weight: 300;
+text-align: center;
+width: 80%;
+}
+.life_CE_Gallery{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 57px;
+  row-gap: 57px;
+}
+/* ---- about chiphereleven end here ----  */
+
 /* ---- footer start here ---- */
 footer {
   position: relative;
@@ -179,6 +399,8 @@ footer {
   position: absolute;
   top: -50px;
   right: 47%;
+  height: 100px;
+  width: 100px;
 }
 .footer_heading {
   font-size: 41px;
@@ -193,14 +415,19 @@ footer {
 /* ---- footer end here ---- */
 
 /* ------ meida quries ------ */
-@media (max-width: 1201px) {}
-@media (max-width: 1025px) {}
+@media (max-width: 1201px) {
+}
+@media (max-width: 1025px) {
+}
 @media (max-width: 769px) {
   .nav_items {
     display: none;
   }
   .nav_menu {
     display: block;
+  }
+  .life_CE_Gallery{
+    grid-template-columns: 1fr 1fr;
   }
 }
 @media (max-width: 481px) {
@@ -210,6 +437,13 @@ footer {
   .footer_reddot {
     right: 38%;
   }
+  
+  .life_CE_Gallery{
+    grid-template-columns: 1fr;
+  }
 }
 @media (max-width: 320px) {
+  .life_CE_Gallery{
+    grid-template-columns: 1fr;
+  }
 }

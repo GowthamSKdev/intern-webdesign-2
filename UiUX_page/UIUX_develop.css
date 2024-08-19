@@ -92,6 +92,7 @@ img {
   object-fit: cover;
   object-position: center;
 }
+html,
 body {
   scroll-behavior: smooth;
 }

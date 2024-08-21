@@ -374,7 +374,7 @@ footer {
   .news_letter > form {
     width: 100%;
   }
-  .con{
+  .con {
     padding: 30px;
   }
   .name_and_phone {
@@ -391,28 +391,28 @@ footer {
   .side_nav_menu {
     width: 100%;
   }
-  .contact_para{
+  .contact_para {
     font-size: var(--fs-md);
     width: auto;
   }
-  .contact_banner_wrapper{
+  .contact_banner_wrapper {
     gap: 20px;
   }
   .cell_wrapper,
-.address_wrapper {
-  flex-direction: column-reverse;
-  width: 100%;
-  gap: 20px;
-}
+  .address_wrapper {
+    flex-direction: column-reverse;
+    width: 100%;
+    gap: 20px;
+  }
   .cell_wrapper > img,
-.address_wrapper > img {
-  width: 100%;
-}
-.con{
-  width: 100%;
-  border-radius: 10px;
-  padding: 20px;
-}
+  .address_wrapper > img {
+    width: 100%;
+  }
+  .con {
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+  }
   .footer_reddot {
     right: 38%;
   }

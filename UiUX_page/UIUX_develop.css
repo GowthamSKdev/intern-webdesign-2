@@ -260,7 +260,6 @@ body {
 .uiux_st_wrapper > ul {
   display: flex;
   flex-direction: column;
-
 }
 .uiux_st_wrapper > ul > li {
   list-style-type: disc;
@@ -273,7 +272,7 @@ body {
 /* ---- uiux our-Strengths end here ---- */
 
 /* ---- uiux ciphereleven work start here ---- */
-.uiux_CE_work{
+.uiux_CE_work {
   background-color: var(--clr-bg);
   display: flex;
   flex-direction: column;
@@ -281,24 +280,24 @@ body {
   align-items: center;
   padding: 50px 34px;
 }
-.uiux_CE_work_headding{
-font-size: 50px;
-font-weight: 600;
-color: var(--clr-white-txt);
+.uiux_CE_work_headding {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--clr-white-txt);
 }
-.uiux_CE_work>hr{
+.uiux_CE_work > hr {
   background-color: var(--clr-white-txt);
   width: 250px;
   height: 5px;
   border-radius: 5px;
   margin-bottom: 76px;
 }
-.uiux_CE_work_wrapper{
+.uiux_CE_work_wrapper {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-.uiux_CE_work_card{
+.uiux_CE_work_card {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -308,13 +307,13 @@ color: var(--clr-white-txt);
   border-radius: 10px;
   width: 440px;
 }
-.uiux_CE_work_card_headding{
-font-size: 26px;
-font-weight: 500;
+.uiux_CE_work_card_headding {
+  font-size: 26px;
+  font-weight: 500;
 }
-.uiux_CE_work_card_para{
-font-size: 16px;
-font-weight: 300;
+.uiux_CE_work_card_para {
+  font-size: 16px;
+  font-weight: 300;
 }
 /* ---- uiux ciphereleven work end here ---- */
 
@@ -360,7 +359,7 @@ footer {
 @media (max-width: 1201px) {
 }
 @media (max-width: 1025px) {
-  .uiux_banner{
+  .uiux_banner {
     flex-direction: column;
   }
 }
@@ -371,7 +370,7 @@ footer {
   .nav_menu {
     display: block;
   }
-  .uiux_banner_heading{
+  .uiux_banner_heading {
     font-size: 40px;
   }
 }

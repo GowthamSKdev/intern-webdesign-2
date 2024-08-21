@@ -348,24 +348,24 @@ hr {
   color: var(--clr-white-txt);
 }
 
-.about_life_chipereleven{
+.about_life_chipereleven {
   display: flex;
   flex-direction: column;
   gap: 20px;
   justify-content: center;
   align-items: center;
 }
-.life_CE_headding{
-font-size: 40px;
-font-weight: 700;
+.life_CE_headding {
+  font-size: 40px;
+  font-weight: 700;
 }
-.life_CE_para{
-font-size: 14px;
-font-weight: 300;
-text-align: center;
-width: 80%;
+.life_CE_para {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  width: 80%;
 }
-.life_CE_Gallery{
+.life_CE_Gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 57px;
@@ -417,13 +417,13 @@ footer {
 @media (max-width: 1201px) {
 }
 @media (max-width: 1025px) {
-  .about_banner_container{
+  .about_banner_container {
     width: 800px;
   }
-  .about_banner_headding{
+  .about_banner_headding {
     font-size: 30px;
   }
-  .about_banner_para{
+  .about_banner_para {
     font-size: var(--fs-md);
   }
 }
@@ -435,27 +435,27 @@ footer {
     display: block;
   }
 
-  .about_banner_container{
+  .about_banner_container {
     width: auto;
   }
-  .about_banner_headding{
+  .about_banner_headding {
     font-size: 30px;
   }
-  .about_banner_para{
+  .about_banner_para {
     font-size: var(--fs-sm);
   }
-  .about_vision_para{
+  .about_vision_para {
     font-size: var(--fs-sm);
     text-align: justify;
   }
-  .about_vision_hl_headding{
+  .about_vision_hl_headding {
     font-size: var(--fs-paragraph);
   }
-  .about_vision_hl_para{
+  .about_vision_hl_para {
     font-size: var(--fs-paragraph);
   }
 
-  .life_CE_Gallery{
+  .life_CE_Gallery {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -466,37 +466,37 @@ footer {
   .footer_reddot {
     right: 38%;
   }
-  .about_banner_container{
+  .about_banner_container {
     width: auto;
   }
-  .about_banner_headding{
+  .about_banner_headding {
     font-size: 30px;
   }
-  .about_banner_para{
+  .about_banner_para {
     font-size: var(--fs-sm);
   }
-  .about_vision_para{
+  .about_vision_para {
     font-size: var(--fs-sm);
     text-align: justify;
   }
-  .about_vision_hl_headding{
+  .about_vision_hl_headding {
     font-size: var(--fs-paragraph);
   }
-  .about_vision_hl_para{
+  .about_vision_hl_para {
     font-size: var(--fs-paragraph);
   }
-  .about_choose_chipereleven{
+  .about_choose_chipereleven {
     padding: 10px 10px;
   }
-  .choose_CE_card{
+  .choose_CE_card {
     width: auto;
   }
-  .life_CE_Gallery{
+  .life_CE_Gallery {
     grid-template-columns: 1fr;
   }
 }
 @media (max-width: 320px) {
-  .life_CE_Gallery{
+  .life_CE_Gallery {
     grid-template-columns: 1fr;
   }
 }

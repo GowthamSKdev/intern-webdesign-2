@@ -194,8 +194,10 @@ footer {
 /* ---- footer end here ---- */
 
 /* ------ meida quries ------ */
-@media (max-width: 1201px) {}
-@media (max-width: 1025px) {}
+@media (max-width: 1201px) {
+}
+@media (max-width: 1025px) {
+}
 @media (max-width: 769px) {
   .nav_items {
     display: none;

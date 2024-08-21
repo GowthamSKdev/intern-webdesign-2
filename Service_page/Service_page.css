@@ -333,7 +333,7 @@ footer {
   .services_heading {
     font-size: var(--fs-lg);
   }
-  .services_title{
+  .services_title {
     font-size: 30px;
   }
   .services_para {
@@ -355,16 +355,15 @@ footer {
   .services_design > .services_wrapper,
   .services_support > .services_wrapper,
   .services_developer > .services_wrapper,
-.services_consult > .services_wrapper
-   {
+  .services_consult > .services_wrapper {
     width: 80%;
     align-items: start;
     text-align: left;
   }
   .services_developer,
-.services_consult {
- flex-direction: column-reverse;
-}
+  .services_consult {
+    flex-direction: column-reverse;
+  }
 }
 @media (max-width: 320px) {
 }

@@ -648,7 +648,7 @@ footer {
     font-size: 55px;
     top: 50%;
   }
-  .started{
+  .started {
     left: 35%;
   }
 }
@@ -659,11 +659,11 @@ footer {
   .side_nav_menu {
     width: 100%;
   }
-  .home_banner_container{
+  .home_banner_container {
     top: 40%;
     gap: 10px;
   }
-  .home_banner_course{
+  .home_banner_course {
     width: auto;
   }
   .home_banner_greeting,
@@ -698,7 +698,7 @@ footer {
     font-size: 16px;
     font-weight: 400;
   }
-  .started{
+  .started {
     left: 20%;
   }
   .footer_reddot {
@@ -717,10 +717,10 @@ footer {
   .home_step_01 > .home_step_left > .home_step_number,
   .home_step_02 > .home_step_right > .home_step_number,
   .home_step_03 > .home_step_left > .home_step_number,
-  .home_step_04 > .home_step_right > .home_step_number{
+  .home_step_04 > .home_step_right > .home_step_number {
     font-size: 200px;
   }
-  .CW_card{
+  .CW_card {
     width: 100%;
   }
 }

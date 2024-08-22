@@ -87,6 +87,12 @@ a {
   color: inherit;
 }
 
+img {
+  max-width: 100%;
+  display: block;
+  object-position: center;
+  object-fit: cover;
+}
 /* ---------Navbar start here------- */
 
 #navbar {
@@ -155,6 +161,165 @@ a {
 }
 /* ---------Navbar end here------- */
 
+/* ---- uiux-banner start here ---- */
+.DM_banner {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+  height: 100vh;
+  align-items: center;
+  position: relative;
+}
+.DM_banner_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+}
+.DM_banner_heading {
+  font-size: 50px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-align: center;
+}
+.DM_banner_para {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+}
+.DM_banner_btn {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--clr-btn-blue-txt);
+  padding: 24px 74px;
+  border-radius: 53px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.DM_banner > img {
+  max-width: 50%;
+}
+.img-vl {
+  position: absolute;
+  bottom: 0;
+}
+/* ---- DM-banner end here ---- */
+
+/* ---- DM-offer start here ---- */
+.DM_offer {
+  background-color: var(--clr-bg);
+  padding: 98px 43px;
+}
+.DM_off_headding {
+  color: var(--clr-white-txt);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 43px;
+}
+.DM_off_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 57px;
+  justify-content: center;
+  align-items: center;
+}
+.DM_off_card {
+  width: 250px;
+  height: 150px;
+  background-color: var(--clr-white-txt);
+  color: var(--clr-dark-txt);
+  display: grid;
+  place-items: center;
+  box-shadow: 4px 8px 4px 0px #00000040;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 20px;
+}
+/* ---- DM-offer end here ---- */
+
+/* ---- DM our-Strengths strat here ---- */
+.DM_strength {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.DM_st_wrapper {
+  background-color: var(--clr-lite-gray-bg);
+  width: 100%;
+  padding: 45px 34px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+.DM_st_headding {
+  font-size: 50px;
+  font-weight: 600;
+}
+.DM_st_wrapper > ul {
+  display: flex;
+  flex-direction: column;
+}
+.DM_st_wrapper > ul > li {
+  list-style-type: disc;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: left;
+  width: 80%;
+  align-self: center;
+}
+/* ---- DM our-Strengths end here ---- */
+
+/* ---- DM ciphereleven work start here ---- */
+.DM_CE_work {
+  background-color: var(--clr-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 34px;
+}
+.DM_CE_work_headding {
+  font-size: 50px;
+  font-weight: 600;
+  color: var(--clr-white-txt);
+}
+.DM_CE_work > hr {
+  background-color: var(--clr-white-txt);
+  width: 250px;
+  height: 5px;
+  border-radius: 5px;
+  margin-bottom: 76px;
+}
+.DM_CE_work_wrapper {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.DM_CE_work_card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: var(--clr-white-txt);
+  padding: 40px 20px;
+  border-radius: 10px;
+  width: 440px;
+}
+.DM_CE_work_card_headding {
+  font-size: 26px;
+  font-weight: 500;
+}
+.DM_CE_work_card_para {
+  font-size: 16px;
+  font-weight: 300;
+}
+/* ---- DM ciphereleven work end here ---- */
+
 /* ---- footer start here ---- */
 footer {
   position: relative;
@@ -197,6 +362,29 @@ footer {
 @media (max-width: 1201px) {
 }
 @media (max-width: 1025px) {
+  .DM_banner {
+    margin-top: 94px;
+    margin-bottom: 30px;
+  }
+  .DM_banner_heading {
+    font-size: 40px;
+  }
+  .DM_banner_heading {
+    font-size: 30px;
+  }
+  .DM_banner_para {
+    font-size: 16px;
+  }
+  .DM_banner_btn {
+    font-size: 16px;
+    padding: 12px 32px;
+  }
+  .DM_banner_wrapper {
+    width: auto;
+  }
+  .DM_CE_work_card {
+    width: 400px;
+  }
 }
 @media (max-width: 769px) {
   .nav_items {
@@ -205,14 +393,69 @@ footer {
   .nav_menu {
     display: block;
   }
+  .DM_banner {
+    flex-direction: column;
+    height: auto;
+    margin-top: 94px;
+    margin-bottom: 30px;
+  }
+  .DM_banner_heading {
+    font-size: 40px;
+  }
+  .DM_banner_heading {
+    font-size: 30px;
+  }
+  .DM_banner_para {
+    font-size: 16px;
+  }
+  .DM_banner_btn {
+    font-size: 16px;
+    padding: 12px 32px;
+  }
+  .DM_banner > img {
+    max-width: 80%;
+    height: auto;
+  }
+  .DM_banner_wrapper {
+    width: auto;
+  }
+  .DM_off_card {
+    width: 250px;
+    height: 150px;
+  }
+  .DM_st_headding {
+    font-size: 30px;
+  }
+  .DM_st_wrapper > ul > li {
+    font-size: 16px;
+  }
+  .DM_CE_work_headding {
+    font-size: 30px;
+  }
+
+  .footer_reddot {
+    display: none;
+  }
 }
 @media (max-width: 481px) {
   .side_nav_menu {
     width: 100%;
   }
+  .DM_banner {
+    flex-direction: column;
+  }
   .footer_reddot {
     right: 38%;
   }
+  .DM_CE_work_card {
+    width: auto;
+  }
 }
 @media (max-width: 320px) {
+  .DM_banner {
+    flex-direction: column;
+  }
+  .DM_CE_work_card {
+    width: auto;
+  }
 }

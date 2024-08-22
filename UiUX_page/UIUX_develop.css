@@ -450,6 +450,9 @@ footer {
   .footer_reddot {
     right: 38%;
   }
+  .uiux_CE_work_card{
+    width: auto;
+  }
 }
 @media (max-width: 320px) {
   .uiux_banner {
